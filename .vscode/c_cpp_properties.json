@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "msys2",
+            "includePath": [
+                "${config:terminal.integrated.env.windows.include_path}",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "DEBUG"
+            ],
+            "compilerPath": "${config:terminal.integrated.env.windows.compiler_path}",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,16 @@
+{
+    "files.encoding": "utf8",
+    "files.trimTrailingWhitespace": true,
+    "files.eol": "\n",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "terminal.integrated.env.windows": {
+        "app_name": "vscodecpptemplate.exe",
+        "compiler_path": "D:/msys2/mingw64/bin/gcc.exe",
+        "include_path": "D:/msys2/mingw64/include/**",
+        "dbg_path": "D:/msys2/mingw64/bin/gdb.exe"
+    },
+    "terminal.integrated.env.linux": {
+    },
+    "terminal.integrated.env.osx": {
+    }
+}
