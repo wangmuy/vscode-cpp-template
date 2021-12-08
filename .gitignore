@@ -1,6 +1,9 @@
 # VSCode
 .vscode/*.log
 
+# makefile
+Makefile
+
 # CMake
 build*
 Debug*
