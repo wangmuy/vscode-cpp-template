@@ -13,6 +13,21 @@
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "Mac",
+            "includePath": [
+                "${config:terminal.integrated.env.osx.include_path}",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "DEBUG"
+            ],
+            "compilerPath": "${config:terminal.integrated.env.osx.compiler_path}",
+            "macFrameworkPath": ["/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4

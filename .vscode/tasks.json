@@ -6,7 +6,7 @@
         {
             "label": "runapp",
             "type": "shell",
-            "command": "${workspaceFolder}/build/${config:terminal.integrated.env.windows.app_name}"
+            "command": "${workspaceFolder}/build/${config:terminal.integrated.env.osx.app_name}"
         },
         {
             "label": "cmakebuild",
