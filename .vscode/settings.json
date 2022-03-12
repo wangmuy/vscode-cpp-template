@@ -17,6 +17,7 @@
     "terminal.integrated.env.osx": {
         "app_name": "vscodecpptemplate",
         "compiler_path": "/usr/bin/gcc",
-        "include_path": "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/**"
+        "include_path": "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/**",
+        "dbg_path": "TBD"
     }
 }

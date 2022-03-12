@@ -4,9 +4,20 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "runapp",
+            "label": "runappmsys",
             "type": "shell",
-            "command": "${workspaceFolder}/build/${config:terminal.integrated.env.osx.app_name}"
+            "command": "${workspaceFolder}/build/${config:terminal.integrated.env.windows.app_name}",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "runappmac",
+            "type": "shell",
+            "command": "${workspaceFolder}/build/${config:terminal.integrated.env.osx.app_name}",
+            "problemMatcher": [
+                "$gcc"
+            ]
         },
         {
             "label": "cmakebuild",
