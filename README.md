@@ -13,6 +13,9 @@
 run without debug: `ctrl-F5`,
  or `ctrl-shift-p run task -> go run package`
 
+### executable
+`ctrl-shift-p run task -> go run app`
+
 ### single file
 `ctrl-shift-p run task -> go run file`
 

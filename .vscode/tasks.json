@@ -20,6 +20,15 @@
         ]
     },
     {
+        "label": "go run app",
+        "type": "shell",
+        "command": "${workspaceFolder}/${config:app_name}",
+        "dependsOn": "go build",
+        "problemMatcher": [
+            "$go"
+        ]
+    },
+    {
         "label": "go build",
         "type": "shell",
         "command": "go build",
