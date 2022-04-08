@@ -4,6 +4,7 @@
             "name": "msys2",
             "includePath": [
                 "${config:terminal.integrated.env.windows.include_path}",
+                "${config:terminal.integrated.env.windows.conan_includes}",
                 "${workspaceFolder}/**"
             ],
             "defines": [

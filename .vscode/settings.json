@@ -10,7 +10,8 @@
         "app_name": "vscodecpptemplate.exe",
         "compiler_path": "D:/msys2/mingw64/bin/gcc.exe",
         "include_path": "D:/msys2/mingw64/include/**",
-        "dbg_path": "D:/msys2/mingw64/bin/gdb.exe"
+        "dbg_path": "D:/msys2/mingw64/bin/gdb.exe",
+        "conan_includes": "C:/Users/wangmuy/.conan/data/**"
     },
     "terminal.integrated.env.linux": {
     },
