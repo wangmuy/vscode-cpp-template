@@ -21,6 +21,24 @@ TBD
 ## Setup/Change configuration
 `ctrl-shift-p c++ select a configuration` choose `msys`/`Mac`
 
+`ctrl-shift-p cmake edit user-local cmake kits` add kit:
+```
+  {
+    "name": "Conan GCC msys",
+    "compilers": {
+      "C": "D:\\msys2\\mingw64\\bin\\gcc.exe",
+      "CXX": "D:\\msys2\\mingw64\\bin\\g++.exe"
+    },
+    "environmentSetupScript": "D:\\Anaconda_x64\\envs\\conan\\Scripts\\activate_conan.bat"
+  },
+```
+setup anaconda conan env, add activate_conan.bat:
+```powershell
+@echo off
+call "D:\Anaconda_x64\Scripts\activate" conan
+```
+`ctrl-shift-p cmake select a kit` choose `Conan GCC msys`
+
 ## Build
 `ctrl-shift-p cmake:build`
 or `ctrl-shift-p tasks run task -> cmakebuild`
